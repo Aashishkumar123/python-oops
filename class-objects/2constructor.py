@@ -27,7 +27,7 @@ A method takes a first argument always a self and it always define inside a clas
 # SELF
 
 '''
-A self is a keyword in python, that holds the address of current object of a class.
+A self is a variable in python, that holds the address of current object of a class.
 You must have to pass self as a first parameter in any method in class, otherwise it raise an exception.
 '''
 
