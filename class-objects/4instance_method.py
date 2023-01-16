@@ -7,19 +7,19 @@ Instance method is used to access the instance variable.
 
 class Car(object):
     def __init__(self, m, c) -> None:           # constructor with parameter
-        self.model = m                          # instant variable
-        self.color = c                          # instant variable
+        self.model = m                          # instance variable
+        self.color = c                          # instance variable
     
-    def show(self):                                                     # instant method
-        print(f'model : {self.model} , color : {self.color}')           # access instant variable
+    def show(self):                                                     # instance method
+        print(f'model : {self.model} , color : {self.color}')           # access instance variable
 
 
 obj = Car('xuv','black')                     # create class object
-obj.show()                                   # call instant method
+obj.show()                                   # call instance method
 
 
 obj1 = Car('suv','white')                     # create class object
-obj1.show()                                   # call instant method
+obj1.show()                                   # call instance method
 
 
 Car('xuv','black').show()                   # you can also call through class but not recommended way
