@@ -13,5 +13,5 @@ class Car(object):
         print(f'The feature of this car has {self.capacity} sitting capacity and a powerful {self.engine} engine.')   # body
 
 
-obj = Car(4,'v501')
-obj.get_features()
+obj = Car(4,'v501')                                 # object
+obj.get_features()                                  # calling the getter method
